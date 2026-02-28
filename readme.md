@@ -10,7 +10,7 @@ O curso é dividido em "Mundos", cada um focando em pilares fundamentais da prog
 | Mundo | Conteúdo Principal | Status |
 | :--- | :--- | :--- |
 | [Mundo 1](./mundopython1/aulas_exercicios/) | Fundamentos, Tipos Primitivos, Operadores e Condicionais simples. | ✅ Concluído |
-| [Mundo 2](./mundopython2/aulas_exercicios/) | Condicionais Aninhadas, Estruturas de Repetição (For e While). | 🚧 Em progresso |
+| [Mundo 2](./mundopython2/aulas_exercicios/) | Condicionais Aninhadas, Estruturas de Repetição (For e While). | ✅ Concluído |
 
 ---
 
