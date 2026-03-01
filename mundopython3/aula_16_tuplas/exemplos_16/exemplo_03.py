@@ -1,0 +1,5 @@
+lanche = ("Hambúrguer", "Suco", "Pizza", "Pudim")
+print(lanche[1:])
+print(lanche[::2])
+print(lanche[:2])
+print(lanche[-3:])

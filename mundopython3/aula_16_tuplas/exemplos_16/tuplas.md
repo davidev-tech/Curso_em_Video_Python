@@ -10,4 +10,6 @@ Ex:
     print(bebidas)                   print(bebidas[0])                     print(bebidas[2:])
 ----------------------------------------------------------------------------------------------------------------------
 As tuplas são imutaveis. Após definir os valores dentro de uma tupla, não é possivel fazer qualquer alteração, seja ela: remover um elemento, adicionar um elemento ou substituir um elemento por outro.
-Elas utilizam o parenteses como sua estrutura: ()
+Elas utilizam o parenteses como sua estrutura de definição no inicio e final: ()
+----------------------------------------------------------------------------------------------------------------------
+O comando len verifica o comprimento.
