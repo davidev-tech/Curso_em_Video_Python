@@ -3,6 +3,7 @@ sorteio = (1, 10)
 vitorias = 0
 derrotas = 0
 while True:
+    par_impar = " "
     sorteio = randint(1, 10)
     valor_usuario = int(input("Digite um valor: "))
     while par_impar not in "PI":
