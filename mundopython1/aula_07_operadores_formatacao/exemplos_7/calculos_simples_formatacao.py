@@ -1,5 +1,6 @@
 n1 = int (input("Informe o primeiro número: "))
 n2= int (input("Informe o segundo número: "))
+
 soma = n1 + n2
 sub = n1 - n2
 mult = n1 * n2

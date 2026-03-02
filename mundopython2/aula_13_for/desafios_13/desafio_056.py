@@ -3,6 +3,7 @@ idade_homen_mais_velho = 0
 mulheres_menos_20_anos = 0
 pessoas_registradas = 0
 nome_homem_mais_velho = ""
+
 for x in range(0, 4):
     print(f"------ {x + 1}° PESSOA -----")
     nome = str(input("Qual o nome da Pessoa? ")).strip()

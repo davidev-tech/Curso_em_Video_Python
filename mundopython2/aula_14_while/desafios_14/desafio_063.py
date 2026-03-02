@@ -4,6 +4,7 @@ fibonacci_antecessor = 1
 fibonacci_atual = fibonacci_antecessor + fibonacci
 contador = 2
 print(f"{fibonacci} --> {fibonacci_antecessor}", end=" --> ")
+
 while contador < numeros_fibonacci:
     fibonacci_atual = fibonacci_antecessor + fibonacci
     fibonacci = fibonacci_antecessor

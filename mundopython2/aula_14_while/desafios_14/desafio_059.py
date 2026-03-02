@@ -1,6 +1,7 @@
 num1 = int(input("Qual o primeiro número? "))
 num2 = int(input("Qual o segundo número? "))
 menu = 0
+
 while menu != 5:
     menu = int(input("""Escolha uma opção de acordo com os números:
 [ 1 ] SOMAR

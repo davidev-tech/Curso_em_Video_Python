@@ -6,5 +6,6 @@ while numero != 999: # verifica a entrada antes de realizar as operações. É o
     numeros_digitados += 1
     somatorio += numero   # Ele realiza as operações da primeira entrada.
     numero = int(input("Digite um número: "))  
+    
 print(f"{numeros_digitados} foram digitados.") 
 print(f"A soma dos números digitados foi: {somatorio}")

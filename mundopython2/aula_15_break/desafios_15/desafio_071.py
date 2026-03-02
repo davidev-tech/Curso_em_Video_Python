@@ -2,9 +2,11 @@ valor_saque = int(input("Qual o valor do saque? R$"))
 total = valor_saque
 total_cedulas = 0
 cedula = 50
+
 print("=" * 20)
 print("     BANCO DO INTEC     ")
 print("=" * 20)
+
 while True:
     if total >= cedula:
         total -= cedula
@@ -21,5 +23,6 @@ while True:
         total_cedulas = 0
         if total == 0:
             break
+        
 print("=" * 20)
 print("Volte sempre ao BANCO INTEC! Tenha um bom dia!")

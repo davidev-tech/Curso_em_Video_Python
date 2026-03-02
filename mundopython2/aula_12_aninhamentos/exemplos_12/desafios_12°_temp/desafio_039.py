@@ -3,6 +3,7 @@ ano_atual = date.today().year
 ano_nascimento = int(input("Informe o seu ano de nascimento? "))
 idade = ano_atual - ano_nascimento
 idade_alistamento = 18
+
 if idade < 18:
     tempo_faltante_alistamento = idade_alistamento - idade
     print(f"Com {idade} anos, faltam {tempo_faltante_alistamento} anos para o seu alistamento obrigatório.")
