@@ -3,8 +3,8 @@ Desafio 075: Análise estatística e mapeamento de frequências em Tuplas.
 """
 
 indice = 1
-numeros = (int(input("Digite um números: ")), int(input("Digite um números: ")), int(input("Digite um números: ")),
-int(input("Digite um números: ")), int(input("Digite um números: ")))
+numeros = (int(input("Digite o primeiro número: ")), int(input("Digite o segundo número: ")), int(input("Digite o terceiro número: ")),
+int(input("Digite o quarto número: ")), int(input("Digite o quinto número: ")))
 print("=" * 25)
 print("Os valores informados foram: ")
 
