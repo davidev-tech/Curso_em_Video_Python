@@ -19,5 +19,5 @@ lista.pop() Remove o ultimo elemento da lista.
 lista.remove(item) Remove o elemento pelo valor.
 lista.sort() ordena os valores.
 lista.sort(reverse=True) ordena os valores no sentido inverso.
-le(lista) Verifica o comprimento da lista, ou seja, quantos elementos tem dentro da lista.
+len(lista) Verifica o comprimento da lista, ou seja, quantos elementos tem dentro da lista.
 ----------------------------------------------------------------------------------------------------------------------------------Caso tente remover um elemento da lista que não existe a linguagem gera um erro. Para evitar tais problemas é sempre bom verificar.
