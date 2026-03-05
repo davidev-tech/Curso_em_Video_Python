@@ -12,6 +12,7 @@ if resposta == "S":
         numero = int(input("Digite um número: "))
         somatorio += numero
         numeros_digitados += 1
+        
         resposta = str(input("Deseja continuar? [S/N]: ")).upper()[0]
         if numero > maior:
             maior = numero

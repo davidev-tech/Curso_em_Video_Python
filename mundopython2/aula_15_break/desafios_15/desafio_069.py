@@ -16,6 +16,7 @@ while True:
     while idade < 0 or idade > 120:
         idade = int(input("Qual a idade da pessoa? "))
     pessoas_cadastradas += 1
+    
     if idade > 18:
         pessoas_cadastradas_18_mais +=1  
     if sexo == "M":

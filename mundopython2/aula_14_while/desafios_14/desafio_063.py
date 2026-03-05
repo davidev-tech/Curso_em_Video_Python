@@ -9,5 +9,6 @@ while contador < numeros_fibonacci:
     fibonacci_atual = fibonacci_antecessor + fibonacci
     fibonacci = fibonacci_antecessor
     fibonacci_antecessor = fibonacci_atual
+    
     print(f"{fibonacci_atual}", end=" --> " if contador < numeros_fibonacci - 1 else "")
     contador += 1

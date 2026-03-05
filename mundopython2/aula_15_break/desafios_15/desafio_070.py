@@ -17,6 +17,7 @@ while True:
     while produto_valor < 0:
         produto_valor = float(input("Qual o valor do produto? R$"))
     total_gasto += produto_valor
+    
     if nome_produto_mais_barato == " ":
         nome_produto_mais_barato = produto_nome
     if valor_produto_mais_barato == 0:
@@ -29,6 +30,7 @@ while True:
 
     while parar_continuar not in "SN":
         parar_continuar = str(input("Quer continuar? [S/N] ")).strip().upper()
+        
     if parar_continuar == "N":
         break
     

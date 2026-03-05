@@ -4,6 +4,7 @@ conversoes = int(input("""Deseja convertelo para:
 [ 2 ]octal(2)
 [ 3 ]hexadecimal(3)
 Resposta: """))
+
 if conversoes == 1:
     print(f"O número {numero} em binario é igual: ",bin(numero)[2:])
 elif conversoes == 2:

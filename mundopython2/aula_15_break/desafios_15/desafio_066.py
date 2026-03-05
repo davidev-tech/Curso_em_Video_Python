@@ -5,6 +5,7 @@ while True:
     numero = int(input("Digite um valor: "))
     if numero == 999:
         break
+    
     somatorio += numero
     numero_digitados += 1
     

@@ -7,10 +7,9 @@ numeros = []
 
 for indice in range(0, 5):
     numero = int(input("Digite um número: "))
-    
     if indice == 0 or numero > numeros[-1]:
         numeros.append(numero)
-    
+
     else:
         posicao = 0
         while posicao < len(numeros):

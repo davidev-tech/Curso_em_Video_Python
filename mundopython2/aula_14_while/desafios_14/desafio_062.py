@@ -25,7 +25,7 @@ Resposta:  """))
 print("FIM DA CONTAGEM!") 
 print(f"{numero_imprimidos} números foram imprimidos.")'''
 
-termo = int(input("Qual o termo? "))  # Versão otimizada do guanabara.
+termo = int(input("Qual o termo? "))  # Versão otimizada.
 razao = int(input("Qual a razão? "))
 termo_atual = termo
 contador = 0

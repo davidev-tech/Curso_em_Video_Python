@@ -7,7 +7,7 @@ numeros = []
 while True:
     continuar_parar = " "
     numeros.append(int(input("Digite um numero: ")))
-
+    
     while continuar_parar not in "SN":
         continuar_parar = str(input("Deseja continuar? [S/N] ")).strip().upper()[0]
     if continuar_parar in "N":

@@ -13,6 +13,7 @@ for x in range(0, 4):
 [ 2 ] Mulher
 Respota: """))
     soma_idade += idade
+
     if sexo == 1:
         if idade_homen_mais_velho == 0:
             idade_homen_mais_velho = idade
@@ -26,6 +27,7 @@ Respota: """))
     else:
         print("OPÇÃO INVALIDA!")
     pessoas_registradas += 1  
+    
 if pessoas_registradas == 0:
     print("Não houve pessoas registradas.")
 else:    

@@ -11,6 +11,7 @@ while True:
     while par_impar not in "PI":
         par_impar = str(input("Par ou ímpar? [P/I] ")).strip().upper()[0]
     resultado =  valor_usuario + sorteio
+    
     if par_impar == "P":
         if resultado % 2 == 0:
            vitorias += 1
