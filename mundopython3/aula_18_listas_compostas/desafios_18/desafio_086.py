@@ -11,4 +11,4 @@ for indice in range(0,3):
 for indice in range(0,3):
     for contador in range(0,3):
         print(f"{matriz[indice][contador]:^5}",  end="")
-        print()
+    print()
