@@ -11,7 +11,7 @@ print(f"{"JOGO NA MEGA SENA":^30}")
 print("-" * 30)
 
 palpites_mega_sena = []
-quantidade_palpites = int(input("Quantos palpites deseja que sejam gerados? "))
+quantidade_palpites = int(input("Quantos jogos deseja que eu sorteie? "))
 valores_palpites = []
 palpites = 0
 
