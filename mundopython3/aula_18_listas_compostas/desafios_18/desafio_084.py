@@ -7,8 +7,8 @@ maior_peso = menor_peso = 0
 
 while True:
     continuar_parar = " "
-    dados.append(str(input("Digite o nome: ")))
-    dados.append(int(input("Digite o Peso da pessoa: ")))
+    dados.append(str(input("Digite o nome: "))).strip()
+    dados.append(float(input("Digite o Peso da pessoa: ")))
     
     if len(pessoas) == 0:
         maior_peso = menor_peso = dados[1]

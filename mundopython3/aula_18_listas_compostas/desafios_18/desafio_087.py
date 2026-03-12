@@ -5,31 +5,31 @@ matriz = [ [0, 0, 0], [0, 0, 0], [0, 0, 0]]
 somatorio_pares = 0
 somatorio_terceira_coluna = 0
 
-for indice in range(0, 3):
-    for posicao in range(0, 3):
-        matriz[indice][posicao] = int(input("Digite um número: "))
+for linha in range(0, 3):
+    for coluna in range(0, 3):
+        matriz[linha][coluna] = int(input(f"Digite um número para {linha} {coluna}: "))
 
 print("-=-" * 20)    
-for indice in range(0, 3):
-    for posicao in range(0, 3):
-        print(f"{matriz[indice][posicao]:^5}", end="")
+for linha in range(0, 3):
+    for coluna in range(0, 3):
+        print(f"{matriz[linha][coluna]:^5}", end="")
     print()
 print("-=-" * 20)
 
-for indice in range(0, 3):
-    for posicao in range(0, 3):
-        if matriz[indice][posicao] % 2 == 0:
-            somatorio_pares += matriz[indice][posicao] 
+for linha in range(0, 3):
+    for coluna in range(0, 3):
+        if matriz[linha][coluna] % 2 == 0:
+            somatorio_pares += matriz[linha][coluna] 
 
-        if posicao == 2:
-            somatorio_terceira_coluna += matriz[indice][posicao] 
+        if coluna == 2:
+            somatorio_terceira_coluna += matriz[linha][coluna] 
      
-        if indice == 1:
-            if posicao == 0:
-                maior_valor_segunda_linha = matriz[indice][posicao] 
+        if linha == 1:
+            if coluna == 0:
+                maior_valor_segunda_linha = matriz[linha][coluna] 
             else:
-                if matriz[indice][posicao] > maior_valor_segunda_linha:
-                    maior_valor_segunda_linha = matriz[indice][posicao] 
+                if matriz[linha][coluna] > maior_valor_segunda_linha:
+                    maior_valor_segunda_linha = matriz[linha][coluna] 
 
 print(f"A soma de todos os valores pares digitado é: {somatorio_pares}.")
 print(f"A soma dos valores da terceira coluna é: {somatorio_terceira_coluna}.")

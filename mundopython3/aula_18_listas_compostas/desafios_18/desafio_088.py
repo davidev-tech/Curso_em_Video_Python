@@ -15,6 +15,7 @@ quantidade_palpites = int(input("Quantos jogos deseja que eu sorteie? "))
 valores_palpites = []
 palpites = 0
 
+print('-=' * 6, f"SORTEANDO {quantidade_palpites} JOGOS", '-=' * 6)
 while palpites < quantidade_palpites:
     while len(valores_palpites) < 6:
         sorteio = randint(0, 60)
@@ -25,7 +26,8 @@ while palpites < quantidade_palpites:
     valores_palpites.clear()
     palpites += 1
 
-for palpite in palpites_mega_sena:
+for posicao, palpite in enumerate(palpites_mega_sena):
     palpite.sort()
-    print(f"O palpite gerado foi: {palpite}")
-    sleep(2)
+    print(f"O jogo {posicao + 1} gerado foi: {palpite}")
+    sleep(1)
+print(f'-=' * 7, f"< BOA SORTE! >", '-=' * 7)
