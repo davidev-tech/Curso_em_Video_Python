@@ -1,3 +1,8 @@
+"""
+Desafio 091: Ranking de Apostadores com Dicionários.
+Implementação de sorteio randômico e ordenação de estruturas não ordenadas
+utilizando sorted() e operator.itemgetter para critérios de valor.
+"""
 from random import randint
 from time import sleep
 from operator import itemgetter
