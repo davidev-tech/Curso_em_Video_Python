@@ -13,8 +13,15 @@ jogos = {"jogador1": randint(1,6),
         "jogador4": randint(1,6)
        }
 
-ranking = sorted(jogos.items(), key=itemgetter(1), reverse= True)
-print("Ranking dos jogadores: ")
-for i, v in enumerate(ranking):
-    print(f"{i + 1}° lugar: {v[0]} com {v[1]} Pontos.")
+print(f"Valores sorteados:")
+for k, v in jogos.items():
     sleep(1)
+    print(f"{k} tirou {v} no dado.")
+
+ranking = sorted(jogos.items(), key=itemgetter(1), reverse= True)   
+print("-=" * 40)
+print(" == RANKING DOS JOGADORES ==")
+for i, v in enumerate(ranking):
+    sleep(1)
+    print(f"{i + 1}° lugar: {v[0]} com {v[1]} Pontos.")
+    

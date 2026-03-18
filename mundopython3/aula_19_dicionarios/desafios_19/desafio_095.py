@@ -5,11 +5,14 @@ Implementação de Busca Indexada O(1) e Interface de Tabela Formatada.
 """
 ficha_jogadores = []
 ficha_jogador = {}
-total_gols = 0
 
 while True:
+    ficha_jogador.clear()
     gols_partidas = []
+    total_gols = 0
     continuar_parar = " "
+
+
     ficha_jogador['nome'] = str(input("Qual o nome do jogador? "))
     ficha_jogador['partidas_jogadas'] = int(input(f"Quantas partidas {ficha_jogador['nome']} jogou? "))
 
@@ -19,7 +22,6 @@ while True:
 
     ficha_jogador['gols_partidas'] = gols_partidas[:]
     ficha_jogador['total_gols'] = sum(gols_partidas)
-
     ficha_jogadores.append(ficha_jogador.copy())
 
     while continuar_parar not in "SN":
@@ -43,3 +45,5 @@ while True:
         print(f"Levantamento do jogador {ficha_jogadores[opc]['nome']}:")
         for i, g in enumerate(ficha_jogadores[opc]['gols_partidas']):
             print(f"  --> Na {i + 1}° partida {ficha_jogadores[opc]['nome']} fez {g} gols.")
+            
+print(f"<< VOLTE SEMPRE >>")

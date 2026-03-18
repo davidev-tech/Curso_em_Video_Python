@@ -28,6 +28,7 @@ while palpites < quantidade_palpites:
 
 for posicao, palpite in enumerate(palpites_mega_sena):
     palpite.sort()
-    print(f"O jogo {posicao + 1} gerado foi: {palpite}")
     sleep(1)
+    print(f"O jogo {posicao + 1} gerado foi: {palpite}")
+   
 print(f'-=' * 7, f"< BOA SORTE! >", '-=' * 7)
