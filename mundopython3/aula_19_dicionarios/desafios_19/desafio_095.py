@@ -12,7 +12,6 @@ while True:
     total_gols = 0
     continuar_parar = " "
 
-
     ficha_jogador['nome'] = str(input("Qual o nome do jogador? "))
     ficha_jogador['partidas_jogadas'] = int(input(f"Quantas partidas {ficha_jogador['nome']} jogou? "))
 
