@@ -34,6 +34,6 @@ Ex:         def somar(a=0, b=0, c=0):
             somar(2)
             somar()
 ----------------------------------------------------------------------------------------------------------------------------------
-Escopo de Variaveis: O Escopo de declarações é o local onde a variavel vai ou não vai existir, ou seja, uma variavel pode existir apenas dentro de uma função, sendo uma variavel local, ou no programa principal, sendo uma variavel global. Para modificar uma variavel global dentro de uma função usamos o comando: global variavel. Dessa forma acessamos o endereço da variavel global na memoria, tornando possivel modificar variaveis locais dentro de uma função.
+Escopo de Variaveis: O Escopo de declarações é o local onde a variavel vai ou não vai existir, ou seja, uma variavel pode existir apenas dentro de uma função, sendo uma variavel local, ou no programa principal, sendo uma variavel global. Para modificar uma variavel global de dentro de uma função usamos o comando: global variavel. Dessa forma acessamos o endereço da variavel global na memoria, tornando possivel modificar variaveis globais de dentro da uma função.
 ----------------------------------------------------------------------------------------------------------------------------------
-Retornando valores:
+Retornando valores: Usamos o comando return variavel para retorna um valor da variavel de dentro da função para o programa principal, permitindo que o valor seja exibido diretamente ou que o valor seja atribuido a uma variavel do programa principal, dessa forma o valor deixa de ser de uma variavel local e passa a ser de uma variavel global. Obs: assim que usamos o return em uma função, nada a baixo será lido, pois a função encerra ali.
