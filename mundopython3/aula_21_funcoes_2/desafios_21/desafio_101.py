@@ -18,7 +18,7 @@ def verificar_status_voto(idade_eleitor):
     if 18 <= idade_eleitor < 70:
         return f'Com {idade_eleitor} anos: VOTO OBRIGATÓRIO!'
     elif idade_eleitor < 16:
-        return f'com {idade_eleitor} anos: VOCÊ NÃO VOTA!'
+        return f'Com {idade_eleitor} anos: VOCÊ NÃO VOTA!'
     else:
         return f'Com {idade_eleitor} anos: VOTO OPCIONAL!'
 
