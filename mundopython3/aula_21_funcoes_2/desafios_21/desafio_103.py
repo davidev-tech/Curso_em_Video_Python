@@ -7,6 +7,12 @@ def analisar_ficha(jogador='<desconhecido>', gols = 0):
     print(f"O jogador {jogador} fez {gols} gol(s) no campeonato.")
 
 
+# ==============================================================================
+# DESAFIO 103: Ficha do Jogador (Sanitização de Dados)
+# Objetivo: Lidar com dados omissos e validar tipos primitivos via Strings.
+# Conceitos: .isnumeric(), .strip(), Parâmetros Opcionais e Programação Defensiva.
+# ==============================================================================
+
 print("--" * 16)
 nome_jogador = str(input("Nome do jogador: ")).strip()
 gols_digitados = str(input("Números de gols: ")).strip()

@@ -14,6 +14,12 @@ def tratar_dados():
     return numero
 
 
+# ==============================================================================
+# DESAFIO 103: Ficha do Jogador (Sanitização de Dados)
+# Objetivo: Lidar com dados omissos e validar tipos primitivos via Strings.
+# Conceitos: .isnumeric(), .strip(), Parâmetros Opcionais e Programação Defensiva.
+# ==============================================================================
+
 def exibir_dados(num):
     """
     --> Exibe o valor que foi informado.

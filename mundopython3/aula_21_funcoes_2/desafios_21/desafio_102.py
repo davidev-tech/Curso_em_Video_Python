@@ -33,6 +33,12 @@ def exibir_fatorial(valor_fatorial, num=1, exibir_calculo = False):
     print(valor_fatorial)
 
 
+# ==============================================================================
+# DESAFIO 102: Função para Fatorial (Cálculo e Exibição)
+# Objetivo: Implementar parâmetros opcionais e a "Camada de Tradução" (UX to Logic).
+# Conceitos: Parâmetros booleanos, loops de cálculo e controle de verbosidade.
+# ==============================================================================
+
 processo = ' '
 help(exibir_fatorial)
 numero = int(input("Qual número deseja descobrir o fatorial? "))

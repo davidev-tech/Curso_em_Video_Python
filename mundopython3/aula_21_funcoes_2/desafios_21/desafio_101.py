@@ -23,6 +23,12 @@ def verificar_status_voto(idade_eleitor):
         return f'Com {idade_eleitor} anos: VOTO OPCIONAL!'
 
 
+# ==============================================================================
+# DESAFIO 101: Funções para Votação
+# Objetivo: Praticar Escopo de Importação e o Princípio da Responsabilidade Única.
+# Conceitos: datetime, tratamento de idade e lógica condicional eleitoral.
+# ==============================================================================
+
 print("--" * 12)
 ano_nascimento = int(input("Em que ano você nasceu? "))
 idade = calcular_idade(ano_nascimento)
