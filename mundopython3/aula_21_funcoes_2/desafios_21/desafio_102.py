@@ -13,10 +13,10 @@ def calcular_fatorial(num=1):
 
 def exibir_fatorial(valor_fatorial, num=1, exibir_calculo = False):
     """
-    --> Exibir o valor fatorial de um número e caso o usuário queira, irá mostrar o calculo também.
+    --> Exibe o valor fatorial de um número, e caso o usuário queira, irá mostrar o calculo também.
     :param valor_fatorial: Resultado fatorial do número passado anteriormente
     :param num: valor passado anteriormente para calcular o fatorial.
-    :param exibir_calculo: contem str S ou N, para verificar se exibi ou não os calculos.
+    :param exibir_calculo: contem bool True ou False, para verificar se exibi ou não os calculos.
     :return: Nenhum retorno
     """
     from time import sleep
@@ -34,7 +34,7 @@ def exibir_fatorial(valor_fatorial, num=1, exibir_calculo = False):
 
 
 processo = ' '
-
+help(exibir_fatorial)
 numero = int(input("Qual número deseja descobrir o fatorial? "))
 while processo not in 'SN':
     processo = str(input("Deseja Visualizar o Processo? [S/N]: ")).upper().strip()[0]
