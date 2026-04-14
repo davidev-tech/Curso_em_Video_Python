@@ -18,7 +18,6 @@ def adicionar_notas():
 
     print('--' * 20)
     while True:
-        continuar_parar = ' '
         nota_entrada = str(input('Digite a nota: ')).strip()
         nota_valida = True
 
@@ -74,7 +73,6 @@ def exibir_situacao():
     :return situacao_geral: Um Valor True ou False. 
     """
     situacao_geral = False
-    situacao_entrada = ' ' 
 
     while True:
         situacao_entrada = str(input('Deseja ver a situação geral? [S/N]: ')).strip().upper()
@@ -119,7 +117,7 @@ def exibir_registro_alunos(reg_alunos,situacao=False):
     print(f'A menor nota registrada foi: {reg_alunos["menor_nota"]}.')
     print(f'A media das notas registradas foi: {reg_alunos["media_notas"]}.')
     if situacao:
-        print(f'A situação geral foi: {reg_alunos['situação_geral']}.')
+        print(f'A situação geral foi: {reg_alunos["situação_geral"]}.')
     
     
 # =============================================================================================
