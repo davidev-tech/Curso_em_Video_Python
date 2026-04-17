@@ -123,9 +123,8 @@ def exibir_registro_alunos(reg_alunos,situacao=False):
 # =============================================================================================
 # DESAFIO 105: Validando dados com Principio de responsabilidade unica e tratando.
 # Objetivo: Criar funções de leitura robostas, com loop infinito e tecnicas para 
-# validação de dados, além de praticar encapsulamento,modularização e principio de 
-# responsabilidade unica.
-# Conceitos: Encapsulamento de lógica, modularização, sanitização na borda e controle de fluxo
+# validação de dados, além de praticar encapsulamento e principio de responsabilidade unica.
+# Conceitos: Encapsulamento de lógica, sanitização na borda e controle de fluxo
 # Principio de Responsabilidades Unicas.
 # =============================================================================================
 

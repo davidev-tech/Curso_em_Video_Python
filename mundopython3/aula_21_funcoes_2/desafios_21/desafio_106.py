@@ -37,9 +37,10 @@ def acessar_manual(com):
 # =============================================================================================
 # DESAFIO 106: Personalizando a ajuda interativa usando funções.
 # Objetivo: Criar funções mais interativas com cores e bordas, além de praticar encapsulamento,
-# modularização e principio de responsabilidade unica.
-# Conceitos: Encapsulamento de lógica, modularização, Principio de Responsabilidades Unicas.
+# principio de responsabilidade unica.
+# Conceitos: Encapsulamento de lógica, Principio de Responsabilidades Unicas.
 # =============================================================================================
+
 comando = ''
 while True:
     exibir_titulo('SISTEMA DE AJUDA PyHELP', 3)

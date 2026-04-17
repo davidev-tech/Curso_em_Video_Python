@@ -1,0 +1,5 @@
+modularização é o ato de modularizar, é decompor problemas complexos em subproblemas independentes. Surgiu com o proposito de dividir sistemas grandes em partes menores, facilitando a legibilidade e manutenção, mantem o coódigo mais organizado, oculta detalhamento do código, permite a reutilização de um modulo em outros projetos. Para utilizar modularização, jogamos as funções em um arquivo diferente e seguimos o mesmo padrão de importação que já existe, usamos no arquivo principal import nome_arquivo e ou import nome_arquivo nome da função e já podemos usar, apenas chamando a função dentro do arquivo principal.
+----------------------------------------------------------------------------------------------------------------------------------
+Namespace (Espaço de Nomes): Quando usamos import uteis, criamos um "caminho". Isso evita que, se você tiver uma função soma() no seu programa e outra soma() no módulo, elas entrem em conflito. Você usará uteis.soma().
+
+Single Responsibility Principle (SRP): Um módulo deve ter uma "razão única para existir". Ex: Um módulo de matematica.py não deve ter funções para "imprimir boletos". Isso mantém a modularização "saudável".
