@@ -1,10 +1,10 @@
 # =============================================================================================
-# DESAFIO 110: Processar dados usando pacotes e modulos.
+# DESAFIO 110: Processar dados usando modulo.
 # Objetivo: Praticar Modularização, encapsulamento, principio de responsabilidade unica.
 # Conceitos: Modularização, Encapsulamento de lógica, Principio de Responsabilidades Unicas.
 # =============================================================================================
 
-from processar_dados import moedas
+import moedas
 
 preco = float(input('Digite o preço do Produto: R$'))
 taxa_aumento = float(input('Digite qual será a taxa para o aumento do valor: '))

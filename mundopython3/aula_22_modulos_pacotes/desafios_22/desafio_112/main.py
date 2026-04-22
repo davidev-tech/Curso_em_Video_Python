@@ -1,6 +1,7 @@
 # =============================================================================================
 # DESAFIO 112: Processar dados usando pacotes e modulos.
-# Objetivo: Praticar Modularização, encapsulamento, principio de responsabilidade unica.
+# Objetivo: Praticar Modularização, encapsulamento, principio de responsabilidade unica,
+#sanitização dos dados.
 # Conceitos: Modularização, Encapsulamento de lógica, Principio de Responsabilidades Unicas.
 # =============================================================================================
 
