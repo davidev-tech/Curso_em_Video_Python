@@ -1,7 +1,11 @@
-
-from utilidades._interfaces_ import *
+from lib._interfaces_ import *
 
 def verificar_existencia_arquivo(nome):
+    """
+    --> Verifica se o arquivo existe.
+    :param nome.
+    :return True ou False.
+    """
     try:
         a = open(nome, "rt") # -> dentro da função open passamos o nome do arquivo, seguida da ação.
         a.close()
@@ -12,6 +16,11 @@ def verificar_existencia_arquivo(nome):
 
 
 def criar_arquivo(nome):
+    """
+    --> Tenta criar o arquivo.
+    :param nome.
+    :return mensagem informando se deu certo ou não.
+    """
     try:
         a = open(nome, "wt+")
         a.close()
@@ -22,6 +31,11 @@ def criar_arquivo(nome):
 
 
 def lerArquivo(nome):
+    """
+    --> Tenta ler o arquivo.
+    :param nome.
+    :return mensagem informando as pessoas cadastradas. Em casos de erro, informa que houve um erro ao ler o arquivo .
+    """
     try:
         a = open(nome, "rt")
     except:
@@ -37,6 +51,11 @@ def lerArquivo(nome):
 
 
 def cadastrar_usuario(arq, nome='desconhecido', idade=0):
+    """
+    --> Tenta cadastrar um novo usuário.
+    :param arq, nome='desconhecido', idade=0.
+    :return mensagem informando se houve algum erro seja na abertura do arquivo ou ao registrar os dados, ou se deu tudo certo.
+    """
     try:
         a = open(arq, 'at')
     except:

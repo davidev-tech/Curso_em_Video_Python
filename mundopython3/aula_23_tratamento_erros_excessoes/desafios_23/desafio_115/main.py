@@ -1,6 +1,6 @@
-from utilidades._interfaces_ import *
-from utilidades.tratar_dados import *
-from utilidades.arquivo import *
+from lib._interfaces_ import *
+from lib.tratar_dados import *
+from lib.arquivo import *
 from time import sleep
 
 arq = 'cadastro_usuarios.txt'
