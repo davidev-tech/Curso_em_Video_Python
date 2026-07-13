@@ -48,4 +48,4 @@ O curso é dividido em fases, focando desde a lógica básica até a programaç�
 2. Execute com: `python nome_do_arquivo.py`
 
 ---
-🎨 *Estudos focados em lógica de programação para futura transição ao Back-end (Java/Spring).*
+🎨 *Estudos focados em lógica de programação.*
