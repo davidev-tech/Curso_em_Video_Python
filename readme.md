@@ -1,5 +1,3 @@
----
-
 <div align="center">
   <h1>🐍 Curso de Python – Mundos 1, 2, 3 & 4</h1>
   <p>
@@ -17,11 +15,11 @@
 O curso é dividido em mundos que evoluem da lógica básica até a programação orientada a objetos.
 
 | Mundo | Conteúdo | Status |
-| :---: | :--- | :---: |
-| [**1**](./mundopython1/) | Fundamentos e Condicionais | ✅ |
-| [**2**](./mundopython2/) | Estruturas de Repetição (`for`, `while`) | ✅ |
-| [**3**](./mundopython3/) | Tuplas, Listas, Dicionários, Funções, Módulos, Exceções | ✅ |
-| [**4**](./mundopython4/) | Programação Orientada a Objetos (POO) | ⏸️ Pausado |
+| :--- | :--- | :---: |
+| [Mundo 1](./mundopython1/) | Fundamentos e Condicionais | ✅ |
+| [Mundo 2](./mundopython2/) | Estruturas de Repetição (`for`, `while`) | ✅ |
+| [Mundo 3](./mundopython3/) | Tuplas, Listas, Dicionários, Funções, Módulos, Exceções | ✅ |
+| [Mundo 4](./mundopython4/) | Programação Orientada a Objetos (POO) | ⏸️ Pausado |
 
 > 💡 **Nota:** Os três primeiros mundos totalizam **+100 exercícios resolvidos**, com código comentado e organizado por aula. O Mundo 4 está pausado momentaneamente — meu foco atual está em Modelagem de Dados e PostgreSQL.
 
@@ -88,3 +86,5 @@ O curso é dividido em mundos que evoluem da lógica básica até a programaçã
 <div align="center">
   <em>“Cada exercício resolvido é um degrau na construção de uma base sólida em programação.”</em>
 </div>
+
+---
