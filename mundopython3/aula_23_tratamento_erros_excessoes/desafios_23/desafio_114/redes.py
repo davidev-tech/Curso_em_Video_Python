@@ -3,6 +3,10 @@ import urllib.error
 
 
 def check_site(url):
+    """ Verifica se a conexão da url está funcionando normalmente.
+    :param url
+    :return um texto dizendo se está acessivel ou não.
+    """
     try:
         site = urllib.request.urlopen(url, timeout=5)
     except urllib.error.URLError:

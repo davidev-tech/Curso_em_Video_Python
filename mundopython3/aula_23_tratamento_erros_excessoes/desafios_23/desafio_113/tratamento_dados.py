@@ -20,7 +20,7 @@ def tratar_numero_real():
     """
     --> Trata a entrada, até que seja um número real.
     :param nenhum.
-    :return numero_int.
+    :return numero_real.
     """
     while True:
         try:
