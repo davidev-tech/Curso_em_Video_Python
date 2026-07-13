@@ -1,51 +1,90 @@
-# 🐍 Curso de Python - Mundos 1, 2, 3 & 4
+```markdown
+<div align="center">
+  <h1>🐍 Curso de Python – Mundos 1, 2, 3 & 4</h1>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/Status-3%2F4%20Mundos%20Conclu%C3%ADdos-brightgreen?style=for-the-badge" alt="Status" />
+    <img src="https://img.shields.io/badge/Exerc%C3%ADcios-100%2B-blue?style=for-the-badge" alt="Exercícios" />
+  </p>
+  <p><em>Projetos práticos desenvolvidos como complemento à graduação em Engenharia de Software (4º Período).</em></p>
+</div>
 
-> **Status:** Projetos desenvolvidos como complemento prático durante a graduação em **Engenharia de Software (3º Período)**. 🎓
+---
 
 ## 🚀 Estrutura do Repositório
 
-O curso é dividido em fases, focando desde a lógica básica até a programação orientada a objetos:
+O curso é dividido em mundos que evoluem da lógica básica até a programação orientada a objetos.
 
+| Mundo | Conteúdo | Status |
+| :---: | :--- | :---: |
+| [**1**](./mundopython1/) | Fundamentos e Condicionais | ✅ |
+| [**2**](./mundopython2/) | Estruturas de Repetição (`for`, `while`) | ✅ |
+| [**3**](./mundopython3/) | Tuplas, Listas, Dicionários, Funções, Módulos, Exceções | ✅ |
+| [**4**](./mundopython4/) | Programação Orientada a Objetos (POO) | ⏸️ Pausado |
 
-| Mundo | Conteúdo Principal | Status |
-| :--- | :--- | :--- |
-| [Mundo 1](./mundopython1/) | Fundamentos e Condicionais simples. | ✅ Concluído |
-| [Mundo 2](./mundopython2/) | Estruturas de Repetição (For e While). | ✅ Concluído |
-| [Mundo 3](./mundopython3/) | Tuplas, Listas, Dicionários, Funções e Módulos. | ✅ Concluído |
-| [Mundo 4](./mundopython4/) | POO (Orientação a Objetos) e Projetos Finais. | ⏳ Planejado |
-
----
-
-## 📂 Organização das Aulas
-
-### [Mundo 1: Fundamentos](./mundopython1/aulas_exercicios/)
-*   **Aulas 04 a 10:** Tipos primitivos, operadores, strings e condições simples.
-
-### [Mundo 2: Estruturas de Controle](./mundopython2/aulas_exercicios/)
-*   **Aulas 12 a 15:** Condições aninhadas, loops `for` e `while`.
-
-### [Mundo 3: Estruturas Compostas](./mundopython3/aulas_exercicios/)
-*   **Aula 16:** Tuplas.
-*   **Aula 17 e 18:** Listas (Simples e Compostas).
-*   **Aula 19:** Dicionários.
-*   **Aula 20 e 21:** Funções (Definições e Docstrings).
-*   **Aula 22:** Modularização e Pacotes.
-*   **Aula 23:** Tratamento de Erros e Exceções.
-
-### [Mundo 4: Especialização](./mundopython4/aulas_exercicios/)
-*   Programação Orientada a Objetos (Classes, Herança, Encapsulamento).
-*   Projetos Práticos e Integrações.
+> 💡 **Nota:** Os três primeiros mundos totalizam **+100 exercícios resolvidos**, com código comentado e organizado por aula. O Mundo 4 está pausado momentaneamente — meu foco atual está em Modelagem de Dados e PostgreSQL.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
-*   **Linguagem:** [Python 3](https://www.python.org)
-*   **Ambiente:** [Visual Studio Code](https://code.visualstudio.com)
-*   **Controle de Versão:** Git & GitHub
+## 📂 Navegação pelas Aulas
 
-## 📝 Como executar os exercícios
-1. Clone o repositório: `git clone https://github.com`
-2. Execute com: `python nome_do_arquivo.py`
+### 🌱 Mundo 1: Fundamentos
+`./mundopython1/aulas_exercicios/`
+- Tipos primitivos, operadores, strings
+- Condições simples (`if`, `else`)
+
+### 🔁 Mundo 2: Estruturas de Controle
+`./mundopython2/aulas_exercicios/`
+- Condições aninhadas
+- Laços `for` e `while`
+
+### 🧱 Mundo 3: Estruturas Compostas
+`./mundopython3/aulas_exercicios/`
+- **Aula 16:** Tuplas
+- **Aulas 17-18:** Listas (simples e compostas)
+- **Aula 19:** Dicionários
+- **Aulas 20-21:** Funções (definições, docstrings, escopo)
+- **Aula 22:** Modularização e Pacotes
+- **Aula 23:** Tratamento de Erros e Exceções
+
+### 🧬 Mundo 4: Especialização
+`./mundopython4/aulas_exercicios/`
+- Classes, herança, encapsulamento
+- *(Conteúdo programado para retomada futura)*
 
 ---
-🎨 *Estudos focados em lógica de programação.*
+
+## 🛠️ Tecnologias Utilizadas
+- **Linguagem:** Python 3 (seguindo a [PEP 8](https://peps.python.org))
+- **Ambiente:** VS Code
+- **Versionamento:** Git & GitHub
+
+---
+
+## 📝 Como Executar os Exercícios
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/davidev-tech/Curso_em_Video_Python.git
+   ```
+2. Navegue até a aula desejada e execute:
+   ```bash
+   python nome_do_arquivo.py
+   ```
+
+---
+
+## 🎯 Habilidades Desenvolvidas
+- Lógica de programação e algoritmos
+- Manipulação de estruturas de dados nativas (tuplas, listas, dicionários)
+- Criação de funções e módulos reutilizáveis
+- Leitura e escrita de arquivos
+- Tratamento de exceções com `try/except`
+- Organização de código segundo boas práticas
+
+---
+
+<div align="center">
+  <em>“Cada exercício resolvido é um degrau na construção de uma base sólida em programação.”</em>
+</div>
+```
