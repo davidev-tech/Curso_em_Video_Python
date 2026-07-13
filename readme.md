@@ -1,5 +1,3 @@
-Peço desculpas pela confusão. Aqui está o README em Markdown puro, pronto para copiar e colar no seu repositório `Curso_em_Video_Python`, sem nenhum bloco de código envolvendo.
-
 ---
 
 <div align="center">
