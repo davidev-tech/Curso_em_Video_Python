@@ -1,4 +1,7 @@
-```markdown
+Peço desculpas pela confusão. Aqui está o README em Markdown puro, pronto para copiar e colar no seu repositório `Curso_em_Video_Python`, sem nenhum bloco de código envolvendo.
+
+---
+
 <div align="center">
   <h1>🐍 Curso de Python – Mundos 1, 2, 3 & 4</h1>
   <p>
@@ -87,4 +90,3 @@ O curso é dividido em mundos que evoluem da lógica básica até a programaçã
 <div align="center">
   <em>“Cada exercício resolvido é um degrau na construção de uma base sólida em programação.”</em>
 </div>
-```
