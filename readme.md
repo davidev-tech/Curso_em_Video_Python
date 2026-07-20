@@ -66,7 +66,7 @@ O curso é dividido em mundos que evoluem da lógica básica até a programaçã
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/davidev-tech/Curso_em_Video_Python.git
+   git clone https://github.com/davidev-tech/learn-cursoemvideo-python.git
    ```
 2. Navegue até a aula desejada e execute:
    ```bash
